@@ -10,13 +10,11 @@ public:
         }
         else{
             int i=2;
-            while(i<=n)
-            {
+            while(i<=n){
                 sum =a+b;
                 a=b;
                 b=sum;
-                i++;
-            }
+                i++;}
             return sum;
         }
         
