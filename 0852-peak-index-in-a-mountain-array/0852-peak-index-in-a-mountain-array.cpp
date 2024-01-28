@@ -7,7 +7,6 @@ public:
         int mid = (s+e)/2;
         while(s<e)
         {
-            
             if(arr[mid] < arr[mid+1])
             {
               s = mid + 1 ;
