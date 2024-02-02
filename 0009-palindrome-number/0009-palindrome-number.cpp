@@ -8,8 +8,7 @@ public:
             reverse = reverse*10 +m%10;
             m = m/10;
         }
-        if(x<0)
-        {
+        if(x<0){
             return false;
         }
        else if(reverse==x)
