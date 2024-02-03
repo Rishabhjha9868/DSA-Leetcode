@@ -10,8 +10,7 @@ public:
                 j++;
                                }
         }
-        for(; j<n; j++)
-        {
+        for(; j<n; j++){
             nums[j]=0;
         }
     }
