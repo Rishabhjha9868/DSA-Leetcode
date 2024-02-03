@@ -8,7 +8,7 @@ public:
             if (nums[i] != 0) {
             nums[j] = nums[i];
                 j++;
-        }
+                               }
         }
         for(; j<n; j++)
         {
