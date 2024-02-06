@@ -17,9 +17,8 @@ public:
 			}
 		}
 		if(count>(n/2))
-		{
 			return nums[i];
-		}
+		
 	}return {};
     }
 };
