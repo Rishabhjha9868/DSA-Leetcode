@@ -10,12 +10,10 @@ public:
          while(s<=e)
          {
             long long  int square = mid * mid;
-             if(square == n)
-             {
+             if(square == n){
                 return mid;
             }
-             if(square < n)
-             {
+             if(square < n){
                  ans = mid;
                 s = mid + 1;
              }
@@ -25,8 +23,7 @@ public:
              }
              mid = s + (e-s)/2;
          }
-        return ans;
-        
+        return ans;  
     }
     
     int mySqrt(int x) {
