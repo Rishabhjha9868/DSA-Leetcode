@@ -1,7 +1,5 @@
-
 class Solution {
 public:
-    
     int minEatingSpeed(vector<int>& piles, int H) {
         int l = 1, r = 1000000000;
         while (l < r) {
@@ -13,7 +11,6 @@ public:
             else
                 r = m;
         }
-        return l;
+             return l;
     }
-    
 };
