@@ -12,13 +12,11 @@ public:
                 min =j;
                 }
             }swap(nums[i], nums[min]);
-           
         }
          
         int count;
         for(int i=0; i<n; i++)
         {
-           
            if(i!= nums[i]){
             count = i; 
             break;
