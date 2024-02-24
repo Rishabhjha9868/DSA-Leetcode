@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void reverse(vector<int> &arr, int start, int end) {
+         void reverse(vector<int> &arr, int start, int end) {
         while(start <= end) {
             int temp = arr[start];
             arr[start] = arr[end];
@@ -17,7 +17,6 @@ public:
         reverse(nums, 0, k-1);
         reverse(nums, k, n-1);
     }
+        
+    
 };
-
-
-
