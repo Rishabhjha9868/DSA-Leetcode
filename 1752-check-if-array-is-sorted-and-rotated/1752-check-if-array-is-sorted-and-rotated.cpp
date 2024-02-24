@@ -9,10 +9,13 @@ public:
             c++;
     }
     
-    if(nums[0]<nums[n-1])
+    if(nums[0]<nums[n-1]){
         c++;
-    
-    return c<=1;
-
+    }
+    if(c>=2)
+    {
+        return 0;
+    }
+    return 1;
     }
 };
