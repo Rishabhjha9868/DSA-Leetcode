@@ -12,10 +12,8 @@ public:
     if(nums[0]<nums[n-1]){
         c++;
     }
-    if(c>=2)
-    {
-        return 0;
-    }
-    return 1;
+    
+        return c<=1;
+    
     }
 };
