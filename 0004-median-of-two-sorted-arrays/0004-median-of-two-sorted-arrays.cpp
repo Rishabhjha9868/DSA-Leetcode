@@ -8,9 +8,10 @@ public:
         int size = nums1.size();
         if(size % 2 != 0){
             return nums1[size/2];
+        }   
+        else{
+          return (nums1[size/2] + nums1[size/2-1])/2.00000;  
         }
             
-        else
-            return (nums1[size/2] + nums1[size/2-1])/2.00000;
     }
 };
