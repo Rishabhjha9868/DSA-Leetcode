@@ -16,7 +16,6 @@ public:
                 currLen = 1; 
             }
         }
-        
         mxLen = max(mxLen, currLen); 
         return mxLen; 
     }
