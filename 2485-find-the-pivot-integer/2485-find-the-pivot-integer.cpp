@@ -9,11 +9,9 @@ public:
            int last = sum - first +mid;
            if(first==last){
                return mid;
-           }
-           else if(first <last){
+           } else if(first <last){
                 s = mid+1;
-           }
-           else{
+           } else{
                 e = mid -1;
            }
         }
