@@ -11,7 +11,6 @@ public:
         }   
         else{
           return (nums1[size/2] + nums1[size/2-1])/2.00000;  
-        }
-            
+        }    
     }
 };
