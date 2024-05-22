@@ -1,8 +1,6 @@
 class Solution {
 public:
-
     vector<vector<int>> ans;
-
     void helper(int pos, vector<int> v, vector<int> nums, vector<vector<int>>& ans){
         ans.push_back(v);
         for(int i = pos; i < nums.size(); i++){
