@@ -1,19 +1,22 @@
 class Solution {
 public:
     int passThePillow(int n, int time) {
-        int currentPillowPosition = 1;
-        int currentTime = 0;
-        int direction = 1;
-        while (currentTime < time) {
-            if (0 < currentPillowPosition + direction &&
-                currentPillowPosition + direction <= n) {
-                currentPillowPosition += direction;
-                currentTime++;
+        int div = time / (n-1);
+        int rem = time % (n-1);
+
+        if (rem == 0) {
+            if (div % 2 == 0) {
+                return 1; 
             } else {
-                // Reverse the direction if the next position is out of bounds
-                direction *= -1;
+                return n; 
+            }
+        } 
+        else {
+            if (div % 2 == 0) {
+                return 1 + rem; 
+            } else {
+                return n - rem; 
             }
         }
-        return currentPillowPosition;
     }
 };
