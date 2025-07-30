@@ -4,14 +4,14 @@ public class LinkedList {
     int size = 0;
 
     public void addLast(int data) {
-        ListNode element = new ListNode(data);
+        ListNode node = new ListNode(data);
         if(head == null) {
-            head = element;
+            head = node;
         } else {
             ListNode temp = head;
             while(temp.next != null) {
                 temp = temp.next;
-            } temp.next = element;
+            } temp.next = node;
         } size += 1;
     }
 
